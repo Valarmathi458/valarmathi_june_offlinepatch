@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:serif;
+}
+.navbar{
+  background-color:burlywood;
+  position: absolute;
+  width:100%;
+  height:60px;
+  top: 0%; 
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 0 10px 0  gray;
+  height:100%;
+}
+.heroimg{
+  width: 100%;
+  height: 100vh;
+  position:absolute;
+  top:0;
+  left:0%;
+  z-index:-1;
+  background-color: aqua;
+}
+
+li{
+  list-style: none;
+  height:60;
+  width:130px;
+  color:aliceblue
+}
+.logo{
+  height:60px;
+  position:absolute;
+  left:5%;
+  width: auto;
+}
+a{
+  text-decoration: none;
+  position:relative;
+  top:30%;
+  left:30%;
+  width: 10px;
+  color: black;
+  font-size: 17px;
+}
+li:hover{
+  background-color:whitesmoke;
+  color:brown;
+}
+
+.image{
+  font-size:small;
+  text-align: center;
+}
+.menu{
+  color:chocolate;
+}
+.aboutimg
+{
+  width: 100%;
+  height: 78vh;
+  position:absolute;
+  top:100% ;
+  left:0%;
+  z-index:-1;
+  background-color: aqua;
+}
+
+.grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.grid-list li {
+  flex: 1 0 150px; 
+  padding: 20px;
+  color: black;
+  font-size:x-large;
+  text-align: center;
+}
+.grid-list
+{
+  color: black;
+  padding:20px;
+  overflow-clip-margin:inherit ;
+}
+.grid-items{
+  color: black;
+}
+.contactimg
+{
+  width: 100%;
+  height: 30vh;
+  position:absolute;
+  nav-down: auto ;
+  left:0%;
+  z-index:-1;
+  background-color: aqua;
+}
